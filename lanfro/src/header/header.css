@@ -1,0 +1,93 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 80px;
+    background: #FFFFFF 0% 0% no-repeat padding-box; /* #f10808 */
+    box-shadow: 0px 2px 48px #0000000F;
+    opacity: 1;
+    margin-left: 30px;
+    }
+
+.nav_left_block{
+    margin-left: 119px;
+    margin-top:14px ;
+    }
+.nav_right_block{
+    display: flex;
+    flex-direction: row;
+
+    }
+.home{
+    width: 42px;
+    height: 19px;
+    margin: 34px 0 0 35px;
+    text-align: center;
+    font: normal normal normal 14px/19px Avenir;
+    letter-spacing: 1.05px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+    }
+.pricing{
+    margin: 34px 0 0 35px;
+    text-align: center;
+    font: normal normal normal 14px/19px Avenir;
+    letter-spacing: 1.05px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+    width: 48px;
+    height: 19px;
+    }
+.career{
+    margin: 34px 0 0 35px;
+    text-align: center;
+    font: normal normal normal 14px/19px Avenir;
+    letter-spacing: 1.05px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+    width: 46px;
+    height: 19px;
+    }
+.navleft{
+    display: block;
+    width: 108px;
+    height: 27px;
+    text-align: left;
+    font: normal normal 900 20px/27px Avenir;
+    letter-spacing: 1.8px;
+    color: #5861AE;
+    text-transform: uppercase;
+    opacity: 1;
+
+    }
+.navhome,.navpricing,.navcareer,.navbtn{
+    display: block;
+    width:118px;
+    height:80px;
+
+    }
+.navhome{
+    margin-left: 743px;
+    }
+
+.navbtn{
+    background: #5861AE 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    }
+.btn{
+    width:50px;
+    height:19px;
+    margin: 34px 0 0 35px;
+    text-align: center;
+    font: normal normal medium 14px/19px Avenir;
+    letter-spacing: 1.05px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+    }

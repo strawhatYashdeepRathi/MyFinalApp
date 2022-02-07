@@ -1,0 +1,118 @@
+.mainbody{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.rightbody{
+    
+    width: 719px;
+height: 600px;
+background: #B9C0FD1A 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.leftbody{
+    width: 719px;
+    height: 600px;
+
+}
+.inside_right_body{
+    display: flex;
+    flex-direction: column;
+    margin: 182px 182px 0 130px;
+}
+.signinheading{
+    width: 198px;
+    height: 44px;
+    text-align: left;
+    font: normal normal medium 32px/60px Avenir;
+    letter-spacing: 1.28px;
+    color: #4552C1;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.inputform{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.forgot{
+    width: 140px;
+    height: 22px;
+    text-align: right;
+    font: normal normal medium 16px/26px Avenir;
+    letter-spacing: 0.64px;
+    color: #4552C1;
+    text-transform: capitalize;
+    opacity: 1;
+    margin-left: 260px;
+}
+.signin_btn{
+    width: 150px;
+height: 50px;
+background: #4552C1 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+margin: 50px 0 0 150px;
+}
+.btntext{
+    width: 52px;
+    height: 20px;
+    text-align: center;
+    font: normal normal bold 15px/20px Open Sans;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin:14px 49px 16px 49px;
+}
+.company{
+    width:412px;
+    height: 625px;
+    margin:-25px 0 0 152px;
+}
+.title{
+    margin-top: 140px;
+    text-align: left;
+    font: normal normal 900 100px/120px Avenir;
+    letter-spacing: 0px;
+    color: #5861AE;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.subtitle{
+width: 325px;
+height: 25px;
+text-align: left;
+font: normal normal normal 20px/26px Avenir;
+letter-spacing: 0.8px;
+color: #565657;
+text-transform: capitalize;
+opacity: 1;
+}
+.alternate{
+    width: 189px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 16px/26px Avenir;
+    letter-spacing: 0.64px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.register_btn_block{
+    width: 150px;
+height: 50px;
+border: 2px solid #4552C1;
+border-radius: 4px;
+opacity: 1;
+}
+.register_btn{
+    width: 64px;
+height: 20px;
+text-align: center;
+font: normal normal bold 15px/20px Open Sans;
+letter-spacing: 0.3px;
+color: #4552C1;
+opacity: 1;
+margin-left: 20px;
+}

@@ -1,0 +1,159 @@
+.body{
+    /* border: 1px solid black; */
+    height: 766px;
+    display: flex;
+}
+.container1{
+    width: 400px;
+    /* border: 1px solid black; */
+    height: 766px;
+}
+.container2{
+    /* border: 1px solid black; */
+    height: 766px;
+    width: 70vw;
+    background: #F8F9FF 0% 0% no-repeat padding-box;
+}
+.verticalline{
+    width: 2px;
+    height: 183px;
+    margin-top:288.5px ;
+    background: #5861AE 0% 0% no-repeat padding-box;
+}
+.heading{
+    width: 284px;
+    height: 197px;
+    margin-left: 69.25px;
+    margin-top:259px;
+}
+.heading p:nth-child(1),.heading p:nth-child(2){
+    margin: 0%;
+    padding:0%;
+    font: normal normal 900 62px/80px Avenir;
+    letter-spacing: 2.48px;
+    color: #5861AE;
+}
+.content{
+    width: 175px;
+    height: 59px;
+    /* border: 1px solid black; */
+    margin-left: 72.38px;
+}
+.content p:nth-child(1),.content p:nth-child(2){
+    padding:0%;
+    margin: 0%;
+    font: normal normal normal 20px/32px Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+}
+.already{
+    width: 171px;
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    margin-left: 72.14px;
+    padding-bottom: 10px;
+}
+.already p:nth-child(1){
+    padding: 0%;
+    margin: 0%;
+}
+.signinb{
+    width: 150px;
+    height: 50px;
+    border: 2px solid #5861AE;
+    border-radius: 4px;
+    opacity: 1;
+    margin-left: 72px;
+}
+.signint{
+    font: normal normal bold 15px/10px Open Sans;
+    letter-spacing: 0.3px;
+    color: #5861AE;
+}
+
+.heading1{
+    margin-left: 63px;
+    margin-top: 45px;
+    height: 44px;
+    width: 157px;
+    
+}
+.heading1 p:nth-child(1){
+    padding: 0%;
+    margin: 0%;
+    text-align: left;
+    font: normal normal medium 32px/60px Avenir;
+    letter-spacing: 1.28px;
+    color: #5861AE;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.registerdata{
+    display: flex;
+    flex-direction: column;
+}
+.inputfield{
+    display: flex;
+    flex-direction: row;
+}
+.inputfield1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.inputfield1 input:nth-child(1),.inputfield1 input:nth-child(2),.inputfield1 input:nth-child(3),.inputfield1 input:nth-child(4){
+    height: 60px;
+    margin-left: 63px;
+    margin-top: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #989898;
+    background:#F8F9FF 0% 0% no-repeat padding-box ;
+}
+.inputfield2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.inputfield2 input:nth-child(1),.inputfield2 input:nth-child(2),.inputfield2 input:nth-child(3),.inputfield2 input:nth-child(4){
+    height: 60px;
+    margin-left: 63px;
+    margin-top: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #989898;
+    background:#F8F9FF 0% 0% no-repeat padding-box ;
+}
+.svgterms{
+    margin-left: 290px;
+    margin-top: 110px;
+    display: flex;
+}
+.svgterms div:nth-child(1){
+    margin-top: 15px;
+}
+.svgterms div:nth-child(2) p{
+    margin-left: 10px;
+    text-decoration: underline;
+    font: normal normal normal 14px/20px Open Sans;
+    letter-spacing: 0.49px;
+    color: #5861AE;
+}
+.registerbutton{
+    width: 150px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.registerbutton button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background: #5861AE 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+}

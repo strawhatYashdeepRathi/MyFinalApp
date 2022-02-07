@@ -1,0 +1,473 @@
+.orderscontainer {
+    width: 100%;
+    height: 931px;
+}
+
+.orderhead {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 48px #0000000f;
+    opacity: 1;
+    height: 80px;
+}
+
+.orderlefttext {
+    margin-left: 20px;
+}
+
+.orderdisplayhead {
+    display: flex;
+}
+
+.orderHPC {
+    display: flex;
+    margin-left: 55%;
+    margin-right: 20px;
+}
+
+.orderHPC p {
+    border: 1px solid #e3e3e3;
+    opacity: 0.2;
+    margin-left: 50px;
+}
+
+.orderHPC h6 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: auto;
+    color: #565657;
+    margin-left: 5px;
+}
+
+.orderlefttext {
+    color: #5861ae;
+}
+
+.orderrightbutton {
+    margin-left: auto;
+    background-color: #5861ae;
+    display: flex;
+    width: 213px;
+    height: 80px;
+}
+
+.orderrightbutton img {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin: auto;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+.orderrightname {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.ordersignupbody {
+    display: flex;
+}
+
+.ordersbody {
+    display: flex;
+}
+
+
+/* Side Bar */
+
+.ordersidebar {
+    background-color: #5861ae;
+    height: 100vh;
+}
+
+.orderlist {
+    background-color: white;
+    height: 40px;
+}
+
+.orderlist img {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.orderhome {
+    margin-top: 30px;
+}
+
+.orderhome,
+.ordermore {
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+/* Table Top  Part */
+
+.OCS {
+    margin-top: 20px;
+    display: flex;
+}
+
+.LeftOrders {
+    display: flex;
+    margin-left: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.ordertext {
+    margin-right: 10px;
+}
+
+.orderscount {
+    margin-left: 10px;
+}
+
+.rightorderbutton {
+    margin-left: 790px;
+    margin-top: 20px;
+}
+
+.rightorderbutton button {
+    border: none;
+    border-radius: 4px;
+    color: #5861ae;
+    width: 80px;
+    height: 30px;
+    padding: 1px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border: 2px solid #5861ae;
+    background-color: white;
+}
+
+.rightordersearch {
+    display: flex;
+    margin-left: 30px;
+}
+
+.rrorderinputs {
+    width: 200px;
+    background-color: white;
+}
+
+.rrorderinputs:focus {
+    outline: none;
+    background-color: white;
+}
+
+.orderinputdiv {
+    margin-top: 20px;
+}
+
+.orderdivsearch {
+    margin-top: 25px;
+}
+
+
+/* Table */
+
+.orderTable {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#customers {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+/* border: 1px solid #EAEDF0; */
+
+#customers td,
+#customers th {
+    padding: 10px;
+}
+
+#customers tr:nth-child(odd) {
+    background-color: #eaedf0;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 1;
+}
+
+#customers td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 1;
+}
+
+
+/* Footer */
+
+.rrorderfooter {
+    background-color: black;
+    height: 50px;
+    border: 1px solid #707070;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.rrOrdercancel {
+    color: red;
+    cursor: pointer;
+}
+
+
+/* Modal */
+
+.rrordermodal {
+    /* overflow: hidden;
+    content:normal; */
+    background-color: white;
+    margin-left: 45%;
+    height: 100vh;
+    margin-top: 5px;
+    outline: none;
+    overflow: scroll;
+}
+
+.rrmodalexit {
+    cursor: pointer;
+}
+
+.rrordermodalheads {
+    background-color: #5861ae;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    height: 40px;
+}
+
+.rrorderDetailss {
+    margin-bottom: 0%;
+    font-size: 14px;
+}
+
+.rrordermodalheads p {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.rrordermodaladdress {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f4f9ff;
+    font-size: 14px;
+    height: 60px;
+}
+
+.rrlocations {
+    margin-bottom: 0%;
+    font-size: 14px;
+}
+
+.rrlocationss {
+    font-size: 14px;
+}
+
+.rrordermodalstatus {
+    opacity: 1;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 100px;
+    color: gray;
+}
+
+.rrmodalhrline {
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+.rrtablehr hr {
+    width: 100px;
+    border: 1px solid gray;
+    opacity: 0.5;
+}
+
+.rrmodalorderdetails {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.rrmodaltable {
+    border-collapse: collapse;
+}
+
+.rrmodaltable td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    width: 35%;
+    padding-right: 60px;
+}
+
+.rrmodalborder {
+    background-color: #5861ae;
+    margin-top: 20px;
+    color: white;
+}
+
+.rrAddresss {
+    margin-bottom: 0%;
+    font-size: 14px;
+}
+
+.rrmodalshopaddress {
+    margin-left: 35px;
+}
+
+.rrmodaladdressborder {
+    border: 1px solid #5861ae;
+    border-radius: 4px;
+    box-shadow: 2px 1px gray;
+    width: 200px;
+    height: 75px;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.rrmodaladdressborder h3 {
+    margin-bottom: 0%;
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+.rrmodaladdressborder p {
+    margin-top: 0%;
+    font-size: 14px;
+}
+
+.rrmodaladdressborder h3 {
+    font-size: 16px;
+}
+
+.rrmodalbtn button {
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 600px;
+    margin-top: 5px;
+}
+
+.rrmodalbtn {
+    background-color: #f4f4f4;
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+/* Alert */
+
+.rrforcancelorder {
+    margin: auto;
+    width: 380px;
+    margin-top: 200px;
+    background-color: white;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.rrAlertheader {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5861ae;
+    height: 40px;
+}
+
+.rralertsimages {
+    font-size: 40px;
+    color: red;
+    margin-bottom: 0%;
+}
+
+.rrAlertheader p {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+.rrAlertmsg {
+    padding: 10px 10px 10px 25px;
+    font-size: 14px;
+    margin-bottom: -60px;
+}
+
+.rrorderno {
+    font-size: 14px;
+    margin-left: 60px;
+}
+
+.rralertmsgpara {
+    padding-left: 70px;
+    font-size: 14px;
+    margin-bottom: 0%;
+    margin-top: -50px;
+}
+
+.rrAlertmsg span {
+    color: blue;
+    font-size: 14px;
+}
+
+.rrAlertbtn {
+    margin-left: 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.rrAlertbtn button {
+    background-color: #5861ae;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 8px;
+    width: 85px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+{
+    "name": "lanbac",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "watch": "nodemon app.js"
+    },
+    "author": "yash",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dayjs": "^1.10.7",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.1.8",
+        "nodemon": "^2.0.14",
+        "uuid": "^8.3.2"
+    }
+}

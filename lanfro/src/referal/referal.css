@@ -1,0 +1,31 @@
+.referal{
+    background: #F8F9FF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 1440px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 14px;
+}
+.referal_content{
+margin: -14px 0 0 463px;
+align-items: center;
+}
+.money{
+    text-align: left;
+    font: normal normal 600 24px/26px Open Sans;
+    letter-spacing: 0.96px;
+    color: #5861AE;
+    opacity: 1;
+    width:519px;
+    height:33px;
+}
+.condition{
+    text-align: left;
+    font: italic normal normal 10px/26px Open Sans;
+    letter-spacing: 0.4px;
+    color: #3D3D43;
+    opacity: 1;
+    width:183px;
+    height:14px;
+    margin-left: 150px;   
+}

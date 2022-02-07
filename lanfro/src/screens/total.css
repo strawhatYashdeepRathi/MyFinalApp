@@ -1,0 +1,365 @@
+.Container1 {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 48px #0000000f;
+    opacity: 1;
+    height: 80px;
+}
+.createordhead {
+    display: flex;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 80px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 48px #0000000F;
+    opacity: 1;
+}
+.col-lg-2{
+    display: inline-block;
+}
+.headtext {
+    top: 27px;
+    left: 45px;
+    width: 108px;
+    height: 27px;
+    text-align: left;
+    font: normal normal 900 20px/27px Avenir;
+    letter-spacing: 1.8px;
+    color: #5861AE;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.headopts{
+    display: flex;
+    margin-left: 58%;
+}
+.pricebtn {
+    top: 32px;
+    margin-left: 100px;
+    left: 1035px;
+    width: 48px;
+    height: 19px;
+    text-align: center;
+    font: normal normal normal 14px/19px Avenir;
+    letter-spacing: 1.05px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.careerbtn{
+    top: 0px;
+    left: 1150px;
+    width: 113px;
+    height: 80px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.srch{
+    margin-left: 1120px;
+}
+.careerbtn p{
+    top: 34px;
+left: 1150px;
+width: 46px;
+height: 19px;
+text-align: center;
+font: normal normal normal 14px/19px Avenir;
+letter-spacing: 1.05px;
+color: #565657;
+text-transform: capitalize;
+opacity: 1;
+}
+.userHead {
+    margin-left: auto;
+    background-color: #5861ae;
+    display: flex;
+    width: 213px;
+    height: 80px;
+}
+.seabarinputs {
+    margin-top: 20px;
+}
+
+.userHead img {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin: auto;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+.username {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.create-ord-body {
+    display: flex;
+}
+.navbar {
+    background-color: #5861ae;
+    height: 550px;
+    width: 60px;
+    align-content: space-between;
+}
+.navbar button{
+    background-color: transparent;
+    border: 0;
+}
+.ord-pg-plus{
+    background-color: white;
+}
+.navbar img{
+    width: 20px;
+    height: 20px;
+}
+.home{
+    height: 20px;
+    top: 0%;
+}
+.home {
+    margin-top: 55px;
+}
+
+.home,
+.list {
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+.search-bar{
+    display: inline-block;
+    margin-left: 850px;
+}
+
+.more {
+    background-color: white;
+    height: 40px;
+}
+.crt-ord-head{
+    margin-left: 38px;
+    padding-top: 20px;
+}
+.list img {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.ord2 {
+    margin-top: 30px;
+}
+.seabar.form-control {
+    padding-left: 2.375rem;
+    border: none;
+    border-bottom: 1px solid #000000;
+    border-radius: 0px;
+}
+.tabHead {
+    background-color: #000000;
+    color: white;
+    height: 20px;
+}
+.seabar.form-control-feedback{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    border: none;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.createOrdButton{
+    margin-top: 150px;
+    left: 684px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #222B45;
+    opacity: 0.5;
+}
+.crtbtn {
+    width: 100px;
+    height: 40px;
+    margin-left: 650px;
+    margin-top: 10px;
+    background-color: #396a9e !important;
+    color: white !important;
+}
+.foot {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    top: 882px;
+    left: 0px;
+    width: 1440px;
+    height: 50px;
+    background: #182838 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.tab{
+    margin-left: 40px;
+    outline: #5861AE;
+    outline-width: 3px;
+}
+.mytable{
+    margin-top: 20px;
+    left: 100px;
+}
+.tabhead {
+    background-color: #2F2F2F;
+    color: white;
+    height: 60px;
+}
+
+.prd-ty-head{
+    background-color: #2F2F2F;
+    width: 370px;
+    height: 40px;
+    text-align: left;
+}
+.quant-head{
+    background-color: #2F2F2F;
+    width: 230px;
+    text-align: left;
+}
+.wash-t-head{
+    background-color: #2F2F2F;
+    width: 440px;
+    text-align: left;
+}
+.price-head{
+    background-color: #2F2F2F;
+    width: 150px;
+    text-align: left;
+}
+.reset-opt{
+    background-color: #2F2F2F;
+    width: 100px;
+    text-align: left;
+}
+.prod-typ-img img{
+    width: 45px;
+    height: 45px;
+}
+.prd-type-f{
+    display: inline-block;
+}
+.sumtb {
+    width: 100%;
+    border-bottom: 1.5px solid rgb(108, 49, 163);
+    padding: 10px;
+}
+.sumcoss {
+    letter-spacing: 0.35px;
+    color: #396a9e;
+    opacity: 1;
+    text-align: right;
+    font: normal normal 700 18px/25px Open Sans;
+}
+.ord-details {
+    font: normal normal 600 14px/19px Open Sans;
+    letter-spacing: 1px;
+    color: #3B3737;
+    opacity: 1;
+    padding: 10px 0px;
+    margin-bottom: 0%;
+}
+.sumdown {
+    font: normal normal 700 18px/25px Open Sans;
+    letter-spacing: 0.35px;
+    color: #1b2734;
+    opacity: 1;
+    text-align: right;
+}
+.finpric {
+    opacity: 1;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    padding: 10px 0px;
+    background: #959eee 0% 0% no-repeat padding-box;
+    font: normal normal 700 18px/25px Open Sans;
+}
+.addressg {
+    margin-top: 20px;
+}
+.addressallg {
+    display: flex;
+}
+.boxg {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    max-width: 200px;
+    border: #4552c1 1px;
+}
+.contentg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: green;
+}
+.confbtn {
+    text-align: right;
+}
+.btncon {
+    margin-left: 480px;
+    margin-top: 10px;
+}
+.canvas {
+    width: 65% !important;
+}
+.sum-title{
+    background-color: #5861AE;
+    color: white;
+    display: flex;
+    height: 70px;
+}
+.sum-title button{
+    background-color: transparent;
+    border: 0px;
+    color: white;
+}
+.select-location{
+    border: none;
+    text-decoration: underline lightgray;
+}
+.mainadd{
+    margin-top: 0px;
+    height: 98px;
+    background-color: #F4F9FF;
+    align-items: center;
+}
+.butord{
+    margin-left: 1200px;
+    justify-content: space-between;
+}
+.proceed{
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+}
+.cancel{
+    width: 100px;
+    height: 40px;
+}
+.btn-align{
+    float: right;
+}
+.add-new{
+    font-size: 12px !important;
+}
+.goto{
+    width: fit-content;
+    height: fit-content;
+}

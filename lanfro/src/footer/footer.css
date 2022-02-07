@@ -1,0 +1,155 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 197px;
+    margin-left: 30px;
+}
+.aboutus{
+    width: 429px;
+    height: 160px;
+    margin-left: 137px;
+    margin-top: 37px;
+
+}
+.footer_home{
+    width: 130px;
+    height: 157px;
+    margin-top: 40px;
+}
+.footer_price{
+    width: 130px;
+    height: 157px;
+    margin-top: 40px;
+}
+.footer_career{
+    width: 130px;
+    height: 157px;
+    margin-top: 40px;
+}
+.footer_contact{
+  
+    width: 130px;
+    height: 157px;
+    margin-top: 40px;
+}
+.socialmedia{
+    width: 130px;
+    height: 157px;
+    margin-top: 40px;
+}
+.about{
+    text-align: left;
+font: normal normal medium 18px/24px Avenir;
+letter-spacing: 0.18px;
+color: #182838;
+text-transform: uppercase;
+opacity: 1;
+width:90px;
+height:25px;
+}
+.doorstep{
+    text-align: left;
+    font: normal normal normal 15px/20px Avenir;
+    letter-spacing: 0.6px;
+    color: #3D3D43;
+    text-transform: capitalize;
+    opacity: 1;
+    width:251px;
+    height:20px;
+}
+.fhome{
+    text-align: left;
+    font: normal normal medium 16px/24px Avenir;
+    letter-spacing: 0.16px;
+    color: #182838;
+    text-transform: capitalize;
+    opacity: 1;
+    width: 44px;
+    height: 22px;
+}
+.fsignin{
+    width: 44px;
+height: 19px;
+text-align: left;
+font: normal normal normal 14px/24px Avenir;
+letter-spacing: 0.14px;
+color: #182838;
+text-transform: capitalize;
+opacity: 1;
+}
+.fregister{
+    width: 52px;
+    height: 19px;
+    text-align: left;
+    font: normal normal normal 14px/24px Avenir;
+    letter-spacing: 0.14px;
+    color: #182838;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.fpricing{
+    width: 50px;
+height: 22px;
+text-align: center;
+font: normal normal medium 16px/24px Avenir;
+letter-spacing: 0.16px;
+color: #182838;
+text-transform: capitalize;
+opacity: 1;
+}
+.fcareer{
+    width: 50px;
+    height: 22px;
+    text-align: left;
+    font: normal normal medium 16px/24px Avenir;
+    letter-spacing: 0.16px;
+    color: #182838;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.fblogs{
+    width: 36px;
+height: 19px;
+text-align: left;
+font: normal normal normal 14px/24px Avenir;
+letter-spacing: 0.14px;
+color: #182838;
+text-transform: capitalize;
+opacity: 1;
+}
+.fcreate{
+    width: 42px;
+height: 19px;
+text-align: left;
+font: normal normal normal 14px/24px Avenir;
+letter-spacing: 0.14px;
+color: #182838;
+text-transform: capitalize;
+opacity: 1;
+}
+.fcontact{
+    width: 58px;
+height: 22px;
+text-align: center;
+font: normal normal medium 16px/24px Avenir;
+letter-spacing: 0.16px;
+color: #182838;
+text-transform: capitalize;
+opacity: 1;
+}
+.fmedia{
+    width: 130px;
+height: 25px;
+text-align: center;
+font: normal normal medium 18px/24px Avenir;
+letter-spacing: 0.18px;
+color: #182838;
+text-transform: uppercase;
+opacity: 1;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
